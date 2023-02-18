@@ -22,7 +22,7 @@
 <project path="hardware/qcom-caf/sm8350/display" name="SauRavRwT/hardware_qcom-caf_sm8350_display.git" remote="github" revision="lineage-20" />
 
 <!-- Vendor -->
-<project path="vendor/xiaomi/veux" name="SauRavRwT/android_vendor_xiaomi_veux.git" remote="github" revision="main" />
+<project path="vendor/xiaomi/veux" name="SauRavRwT/android_vendor_xiaomi_veux.git" remote="gitlab" revision="main" />
  
 <!-- Clang -->
 <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />

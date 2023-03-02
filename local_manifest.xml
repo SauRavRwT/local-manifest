@@ -2,26 +2,27 @@
 <manifest>
 
 <!--  Remote -->
-<remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD" />
+<remote name="me" fetch="https://gitlab.com/SauRavRwT" />
+<remote name="me2" fetch="https://github.com/SauRavRwT" />
  
 <!-- Trees -->
  
 <!--  Device Tree -->
-<project path="device/xiaomi/veux" name="SauRavRwT/android_device_xiaomi_veux.git" remote="github" revision="xt" />
+<project path="device/xiaomi/veux" name="android_device_xiaomi_veux.git" remote="me2" revision="xt" />
  
 <!--  Kernel Tree -->
-<project path="device/xiaomi/veux-kernel" name="SauRavRwT/android_device_xiaomi_veux-kernel.git" remote="github" revision="lineage-20" />
+<project path="device/xiaomi/veux-kernel" name="android_device_xiaomi_veux-kernel.git" remote="me2" revision="lineage-20" />
  
 <!-- Headers -->
-<project path="kernel/xiaomi/sm8350" name="SauRavRwT/android_kernel_xiaomi_sm8350.git" remote="github" revision="lineage-20" />
+<project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350.git" remote="me2" revision="lineage-20" />
 
 <!--  Hardware -->
-<project path="hardware/xiaomi" name="SauRavRwT/android_hardware_xiaomi.git" remote="github" revision="lineage-20" />
+<project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="me2" revision="lineage-20" />
 
 <!-- Vendor -->
-<project path="vendor/xiaomi/veux" name="SauRavRwT/android_vendor_xiaomi_veux.git" remote="gitlab" revision="main" />
+<project path="vendor/xiaomi/veux" name="android_vendor_xiaomi_veux.git" remote="me" revision="dolby" />
  
 <!-- Clang -->
-<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="me" revision="master" />
  
 </manifest>

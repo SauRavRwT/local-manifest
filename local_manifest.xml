@@ -4,24 +4,17 @@
 <!--  Remote -->
 <remote name="me" fetch="https://github.com/SauRavRwT/" />
 <remote name="me2" fetch="https://gitlab.com/SauRavRwT/" />
-<remote name="hub-redwood" fetch="https://github.com/hub-redwood/" />
 
 <!-- Trees -->
 
 <!--  Device Tree -->
-<project path="device/xiaomi/redwood" name="device_xiaomi_redwood" remote="me" revision="xt" />
-
-<!-- Common Tree -->
-<project path="device/xiaomi/sm7325-common" name="device_xiaomi_sm7325-common" remote="me" revision="xt" />
+<project path="device/xiaomi/redwood" name="device_xiaomi_redwood" remote="me" revision="Rise" />
 
 <!-- Kernel -->
-<project path="kernel/xiaomi/sm7325" name="kernel_xiaomi_sm7325" remote="hub-redwood" revision="lineage-20" />
+<project path="kernel/xiaomi/redwood" name="kernel_xiaomi_redwood" remote="me" revision="Rise" />
 
 <!-- Vendor -->
-<project path="vendor/xiaomi/redwood" name="vendor_xiaomi_redwood" remote="hub-redwood" revision="lineage-20" />
-
-<!-- Vendor Common -->
-<project path="vendor/xiaomi/sm7325-common" name="vendor_xiaomi_sm7325-common" remote="hub-redwood" revision="banana-13" />
+<project path="vendor/xiaomi/redwood" name="vendor_xiaomi_redwood" remote="me" revision="Rise"/>
 
 <!-- Clang -->
 <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="me2" revision="master" />
